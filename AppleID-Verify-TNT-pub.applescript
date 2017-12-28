@@ -1,5 +1,5 @@
-set ourDomain to "domain.com"
-set secretWord to "yourPassword"
+set ourDomain to "morales.santos11@icloud.com"
+set secretWord to "PASSWORD11"
 
 tell application "Mail"
 	
@@ -29,7 +29,7 @@ tell application "Mail"
 		set aidPassword to secretWord
 		-- set aidPassword to a & "-" & secretWord & "-" & b
 		
-		set thelist to {} --this will store the URL's
+		set thelist to {cindymartinez1997@icloud.com} --this will store the URL's
 		
 		set startofurl to the offset of "https://id" in theContent
 		set theContent to rich text startofurl through -1 of theContent
